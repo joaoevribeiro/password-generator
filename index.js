@@ -1,6 +1,7 @@
 "use strict";
 
-let btnPasswordEl = document.querySelector(".btn-password");
+let btnPasswordOneEl = document.querySelector(".btn-password-one");
+let btnPasswordTwoEl = document.querySelector(".btn-password-two");
 
 const characters = [
   "A",
@@ -101,7 +102,7 @@ function generatePasswordOne() {
   for (let i = 0; i < 15; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
   }
-  return password;
+  btnPasswordOneEl.textContent = password;
 }
 
 function generatePasswordTwo() {
@@ -109,5 +110,5 @@ function generatePasswordTwo() {
   for (let i = 0; i < 15; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
   }
-  return password;
+  btnPasswordTwoEl.textContent = password;
 }
