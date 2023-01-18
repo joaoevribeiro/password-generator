@@ -3,3 +3,72 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #1f2937;
+  width: 550px;
+  height: 550px;
+  border-radius: 15px;
+  margin: 150px auto;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding-top: 115px;
+  padding-left: 52px;
+}
+
+#header-color {
+  color: #4adf86;
+}
+
+p {
+  color: #d5d4d8;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 10px;
+  padding-left: 52px;
+}
+
+#btn-generate {
+  background-color: #10b981;
+  width: 191px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 51px;
+  margin-left: 52px;
+  color: #fff;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+hr {
+  width: 446px;
+  border: 1px solid #2f3e53;
+  margin: 35px auto;
+}
+
+.btn-password {
+  background-color: #273549;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
