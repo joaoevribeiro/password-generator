@@ -1,5 +1,7 @@
 "use strict";
 
+let btnPasswordEl = document.querySelector(".btn-password");
+
 const characters = [
   "A",
   "B",
@@ -93,3 +95,19 @@ const characters = [
   "?",
   "/",
 ];
+
+function generatePasswordOne() {
+  let password = "";
+  for (let i = 0; i < 15; i++) {
+    password += characters[Math.floor(Math.random() * characters.length)];
+  }
+  return password;
+}
+
+function generatePasswordTwo() {
+  let password = "";
+  for (let i = 0; i < 15; i++) {
+    password += characters[Math.floor(Math.random() * characters.length)];
+  }
+  return password;
+}
